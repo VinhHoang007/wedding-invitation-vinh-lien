@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Wedding Invitation</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="content-img content-img-1">
+        <img src="images/info.jpg" alt="Information" />
+      </div>
+      <div class="content-img content-img-2">
+        <img src="images/party.jpg" alt="party" />
+      </div>
+      <div class="content-img content-img-3">
+        <img src="images/savethedate.jpg" alt="savethedate" />
+      </div>
+    </div>
+    <!-- Autoplay is allowed. -->
+    <!-- <iframe class="my-audio" src="./audio/yeu-em-hon-moi-ngay-andiez.mp3" allow="autoplay" loop="true"> -->
+    <!-- <audio
+      width="250"
+      src="./audio/yeu-em-hon-moi-ngay-andiez.mp3"
+      id="my-audio"
+      loop="true"
+      autoplay="true"
+      muted="true"
+    ></audio> -->
+    <video
+      style="display: none;"
+      id="my-audio"
+      controls
+      width="250"
+      src="./audio/yeu-em-hon-moi-ngay-andiez.mp3"
+      type="video/webm"
+      title="Wedding"
+      autoplay="true"
+      muted="true"
+    ></video>
+    <canvas id="canvas"></canvas>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="./index.js"></script>
+  <script src="./animate.js"></script>
+</html>
