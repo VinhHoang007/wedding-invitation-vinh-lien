@@ -135,6 +135,13 @@ canvas.addEventListener('mousemove', function (e) {
     mouse.y = e.clientY;
 });
 
+var myAudio = new Audio('./audio/yeu-em-hon-moi-ngay-andiez.mp3');
+canvas.addEventListener('click', function (e) {
+    myAudio.play();
+});
+
+
+
 function tick() {
     draw();
     update();

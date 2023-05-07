@@ -11,5 +11,6 @@ $(document).ready(function () {
             document.getElementById("name").innerText = name;
         }, 100);
     }
+
     windownStart();
 });
