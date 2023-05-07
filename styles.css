@@ -92,7 +92,6 @@ body {
     transform: translateX(50%);
     text-transform: capitalize;
     font-family: lobster;
-    font-weight: 50;
     color: rgba(212, 56, 51, 0.952);
 }
 
@@ -161,7 +160,7 @@ body {
         height: 95vh;
         position: relative;
         animation-name: scaleImages;
-        animation-duration: 1s;
+        animation-duration: 1.5s;
     }
 
 
@@ -194,5 +193,10 @@ body {
         width: 90%;
         height: 75vh !important;
         box-shadow: 0px 0px 20px 4px var(--Color-bgr-03);
+    }
+
+    #name {
+        top: 4.3em;
+        font-size: 20px;
     }
 }
