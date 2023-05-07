@@ -222,7 +222,7 @@ body {
         height: 95vh;
         position: relative;
         animation-name: scaleImages;
-        animation-duration: 1.5s;
+        animation-duration: 1.6s;
     }
 
 
@@ -258,6 +258,6 @@ body {
     }
 
     #name {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 }
