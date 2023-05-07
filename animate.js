@@ -14,7 +14,7 @@ canvas.height = window.innerHeight;
 
 // object image
 var image = new Image();
-image.src = './images/snow.png';
+image.src = './images/heart.png';
 
 for (var i = 0; i < thingsCount; i++) {
     let opacity = Math.random() + 0.4;

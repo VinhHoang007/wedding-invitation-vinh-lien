@@ -227,15 +227,15 @@ body {
 
 
     .content-img-1 {
-        order: 2;
+        order: 1;
     }
 
     .content-img-2 {
-        order: 3;
+        order: 2;
     }
 
     .content-img-3 {
-        order: 1;
+        order: 3;
     }
 }
 
