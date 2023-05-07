@@ -36,7 +36,6 @@ body {
 }
 
 .main {
-
     margin: 0 auto;
     width: 90%;
     height: 100%;
@@ -84,7 +83,7 @@ body {
 }
 
 #name {
-    top: 4.9em;
+    top: 18%;
     right: 50%;
     position: absolute;
     z-index: 99;
@@ -196,7 +195,6 @@ body {
     }
 
     #name {
-        top: 4.8em;
         font-size: 20px;
     }
 }
