@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+
     <title>Wedding Invitation</title>
   </head>
 
@@ -24,8 +25,25 @@
       </div>
     </div>
     <canvas id="canvas"></canvas>
+
+    <div class="actionAudio" onclick="() => actionAudio();">
+      <p>Click to play music.</p>
+      <div class="iconVolume" onclick="() => actionAudio();">
+        <ion-icon name="volume-mute"></ion-icon>
+      </div>
+    </div>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+
   <script src="./index.js"></script>
   <script src="./animate.js"></script>
 </html>

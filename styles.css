@@ -96,11 +96,67 @@ body {
     color: rgba(212, 56, 51, 0.952);
 }
 
-.component-name{
+.component-name {
     background-color: rgba(255, 99, 71, 0.267);
     position: relative;
     width: 100%;
     height: 100%;
+}
+
+.actionAudio {
+    z-index: 9999;
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 3vh;
+    right: 2vw;
+    font-family: lobster;
+
+    border-radius: 50px;
+    box-shadow: 0 2px 6px 1px var(--Color-bgr-03);
+
+    opacity: .7;
+}
+
+.actionAudio div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50px;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--Color-bgr-01);
+}
+
+.actionAudio div ion-icon {
+    color: tomato;
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+.actionAudio p {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+    background-color: var(--Color-bgr-01);
+    box-shadow: 0 2px 6px 1px var(--Color-bgr-03);
+
+    overflow: hidden;
 }
 
 @keyframes showImages1 {
