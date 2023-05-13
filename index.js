@@ -10,7 +10,7 @@ $(document).ready(function () {
         name += " +";
       }
       document.getElementById("name").innerText = name;
-      console.log("  ❤❤❤ 29/05/2011 ~ 29/05/2023 ❤❤❤");
+      console.log("      ❤❤❤ 29/05/2011 ~ 29/05/2023 ❤❤❤");
       console.log("❤❤❤ From Ngoc Vinh and Hai Lien with love ❤❤❤");
     }, 100);
   }
